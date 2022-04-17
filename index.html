@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <!--  CSS Link -->
+    <link rel="stylesheet" href="assets/style.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">`
+    <!--========== BOX ICONS ==========-->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+
+
+    <title>Rentrato</title>
+
+</head>
+<body class="body">
+
+  
+
+    <!-------------NavBar----------->
+    <header id="header" >
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #90AAB9; height: 3.5rem;">
+            <a class="navbar-brand text-center" href="#">
+                <img src="assets/imgs/property-logos-template-260nw-774486358.jpg" alt="logo" class="logo__img img-fluid">
+                <span class="logo__name">Rentrato</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse text-right" id="navbarNavDropdown" style="background-color: #90AAB9;">
+              <ul class="navbar-nav" style="background-color: #90AAB9;">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#values">About</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Properties
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <a class="dropdown-item" href="#properties">Rent</a>
+                      <a class="dropdown-item" href="#properties">Buy</a>
+                    </div>
+                  </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#team">Team</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contacts">Contacts</a>
+                  </li>
+              </ul>
+            </div>
+           
+            <div class="nav__icons">
+              <a href="" class="nav__icon"><i class='bx bxs-user'></i></a>
+              <a href="" class="nav__icon2"><i class='bx bxs-cart'></i></a>
+              <a href="" class="nav__icon"><i class='bx bxs-home' ></i></a>
+          </div>
+
+          </nav>
+    </header>
+  
+    <!-------------Home------------>
+    <section class="home" id="home">
+
+      <img src="assets/imgs/bg.jpg" alt="" class="home__img img-fluid">
+
+        <div class="container home__container" style="margin-top: 2.5rem;">
+
+            <div class="row">
+                <div class="col-md-6 text-left">
+                    <h1 class="home__title">find your best<br>real estate</h1>
+                    <p class="home__subtitle">Buy your dream house with the best price on market,<br> Or find the best flat rent.</p>
+                </div>  
+            </div>       
+
+                  <div class="row">
+
+                    <div class="col-md-6 text-left">
+
+                      <div class="home__tabs ">
+                        <nav>
+                            <div class="nav nav-tabs" id="av-tab" role="tablist">
+                                <button class="nav-link tabs" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Rent</button>
+                                <button class="nav-link tabs" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Buy</button>
+                            </div>
+                        </nav>
+                        
+                        <div class="tab-content" id="nav-tabContent">
+                            <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                              <form class="form-inline" style="margin: 1rem 1rem;">
+                                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-search my-2 my-sm-0" type="submit">Search</button>
+                              </form>
+                            </div>
+      
+                            <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                              <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                                <form class="form-inline" style="margin: 1rem 1rem;">
+                                  <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                                  <button class="btn btn-search my-2 my-sm-0" type="submit">Search</button>
+                                </form>
+                              </div>
+                            </div>
+                          
+                          </div>
+                        </div>
+
+                    </div>
+
+                  </div>
+
+                  <div class="row home__details">
+                    <a href="" class="home__icon"><i class='bx bx-map' ></i> </a>
+                    <p class="home__icon__description">Berlin - Germany</p>
+                  </div>
+             
+    </section>
+  
+   
+     <!--========= Values========= -->  
+    <section id="values" class="values">
+
+      <div class="container-fluid text-center justify-content-center" >
+
+        <div class="section-header">
+          <h2 class="h3__title">Our Values</h2>
+          <p>Odit est perspiciatis laborum et dicta</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-4">
+            <div class="box">
+              <img src="assets/imgs/values__1.png" class="img-fluid" alt="">
+              <h3>Ad cupiditate sed est odio</h3>
+              <p>Eum ad dolor et. Autem aut fugiat debitis voluptatem consequuntur sit. Et veritatis id.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mt-4 mt-lg-0" >
+            <div class="box">
+              <img src="assets/imgs/values__2.png" class="img-fluid" alt="">
+              <h3>Voluptatem voluptatum alias</h3>
+              <p>Repudiandae amet nihil natus in distinctio suscipit id. Doloremque ducimus ea sit non.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mt-4 mt-lg-0">
+            <div class="box">
+              <img src="assets/imgs/values__3.png" class="img-fluid" alt="">
+              <h3>Fugit cupiditate alias nobis.</h3>
+              <p>Quam rem vitae est autem molestias explicabo debitis sint. Vero aliquid quidem commodi.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+  
+
+    <!-- =========Properties=======  -->
+    <section class="properties" id="properties">
+      <div class="container-fluid properties__container text-center justify-content-center" >
+
+        <div class="section-header">
+          <h2 class="h3__title">Our Properties</h2>
+          <p>Discover our best properties</p>
+        </div>
+
+         <!--Swiper-->
+    <div class="swiper__cotainer text-center justify-content-center">
+
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+       
+        <div class="swiper-slide">
+          <div class="card card__container" style="width: 22rem;">
+            <img class="card-img-top card__img" src="assets/imgs/swiper__img__1.jpg" alt="Card image cap">
+            <div class="card-body text-left">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <div class="btn__container">
+              <button class="card__btn" style="background-color:#C88C21;">Featured</button>
+              <button class="card__btn ml-lg-4" style="background-color:#1a5086;">Rent</button>
+              <button class="card__btn" style="background-color:#90AAB9;">New Offer</button>
+             </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="card card__container" style="width: 22rem;">
+            <img class="card-img-top" src="assets/imgs/swiper__img__1.jpg" alt="Card image cap">
+            <div class="card-body text-left">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <div class="btn__container">
+              <button class="card__btn" style="background-color:#C88C21;">Featured</button>
+              <button class="card__btn ml-lg-4" style="background-color:#1a5086;">Rent</button>
+              <button class="card__btn" style="background-color:#90AAB9;">New Offer</button>
+             </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="card card__container" style="width: 22rem;">
+            <img class="card-img-top" src="assets/imgs/swiper__img__1.jpg" alt="Card image cap">
+            <div class="card-body text-left">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <div class="btn__container">
+              <button class="card__btn" style="background-color:#C88C21;">Featured</button>
+              <button class="card__btn ml-lg-4" style="background-color:#1a5086;">Rent</button>
+              <button class="card__btn" style="background-color:#90AAB9;">New Offer</button>
+             </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="card card__container" style="width: 22rem;">
+            <img class="card-img-top" src="assets/imgs/swiper__img__1.jpg" alt="Card image cap">
+            <div class="card-body text-left">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <div class="btn__container">
+              <button class="card__btn" style="background-color:#C88C21;">Featured</button>
+              <button class="card__btn ml-lg-4" style="background-color:#1a5086;">Rent</button>
+              <button class="card__btn" style="background-color:#90AAB9;">New Offer</button>
+             </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="swiper__pagination__moving">
+      <div class="swiper-pagination"></div>
+      </div>
+
+    </div>
+ 
+  </div>
+
+      </div>
+    </section>
+
+    
+    <!-- ======= Team Section ======= -->
+    <section id="team" class="team">
+
+      <div class="container">
+
+        <div class="section-header">
+          <h2>Team</h2>
+          <p>Our hard working team</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+            <div class="member">
+              <div class="member-img">
+                <img src="assets/imgs/team/team-1.jpg" class="img-fluid team__img" alt="">
+                <div class="social">
+                  <a href=""><i class='bx bxl-facebook'></i></a>
+                  <a href=""><i class="bx bxl-twitter"></i></a>
+                  <a href=""><i class="bx bxl-instagram"></i></a>
+                  <a href=""><i class="bx bxl-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4 class="team__header">Walter White</h4>
+                <span  class="team__title">Chief Executive Officer</span>
+                <p class="team__subtitle">Velit aut quia fugit et et. Dolorum ea voluptate vel tempore tenetur ipsa quae aut. Ipsum exercitationem iure minima enim corporis et voluptate.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" >
+            <div class="member">
+              <div class="member-img">
+                <img src="assets/imgs/team/team-2.jpg" class="img-fluid team__img" alt="">
+                <div class="social">
+                  <a href=""><i class='bx bxl-facebook'></i></a>
+                  <a href=""><i class="bx bxl-twitter"></i></a>
+                  <a href=""><i class="bx bxl-instagram"></i></a>
+                  <a href=""><i class="bx bxl-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4 class="team__header">Sarah Jhonson</h4>
+                <span class="team__title">Product Manager</span>
+                <p class="team__subtitle">Quo esse repellendus quia id. Est eum et accusantium pariatur fugit nihil minima suscipit corporis. Voluptate sed quas reiciendis animi neque sapiente.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" >
+            <div class="member">
+              <div class="member-img">
+                <img src="assets/imgs/team/team-4.jpg" class="img-fluid team__img" alt="">
+                <div class="social">
+                  <a href="https://www.facebook.com/codiacompany"><i class='bx bxl-facebook'></i></a>
+                  <a href=""><i class="bx bxl-twitter"></i></a>
+                  <a href=""><i class="bx bxl-instagram"></i></a>
+                  <a href=""><i class="bx bxl-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4 class="team__header">Katy Pary</h4>
+                <span class="team__title">Product Manager</span>
+                <p class="team__subtitle">Quo esse repellendus quia id. Est eum et accusantium pariatur fugit nihil minima suscipit corporis. Voluptate sed quas reiciendis animi neque sapiente.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!---------App Section---------->
+<section id="app">
+  <div class="container">
+      <div class="row">
+
+          <div class="col-md-6 app__data ">
+              <h1 class="app-title">RentratoApp</h1>
+              <h3 class="app-description">use our app now</h3>
+              <p class="app-explian">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam esse rem fuga sit a architecto nemo ullam ab odio, consequuntur est eligendi atque beatae cupiditate alias earum minima recusandae eius?</p>
+                  <div class="row ">
+                      <div class="col-md-6 col-sm-6 ">
+                         <a href="#google.com"><img class="app-img1" src="assets/imgs/google-store.png" alt=""></a> 
+                      </div>
+                      
+                      <div class="col-md-6 col-sm-6">
+                         <a href="#"><img class="app-img2" src="assets/imgs/apple-store.png" alt="" ></a> 
+                      </div>
+                  </div>
+              </div>
+
+              <div class="col-md-6 text-right app__img">
+                <img src="assets/imgs/app__img.jpg" alt="" class="app__img img-fluid">
+            </div>
+     
+  </div>
+  </div>
+
+</section>
+
+
+<!---------Contact us---------->
+<section id="contacts">
+  <div class="container contact__data">
+      <div class="row">
+          <div class="col-md-8">
+              <p class="contact__description">let's talk</p>
+              <h1 class="contact__main">contact us</h1>
+              <p class="contact__explain">If you want to reserve a table in our restaurant, contact us and we will attend you quickly, with our 24/7 chat service.</p>
+          </div>
+
+          <div class="col-md-4 justify-content-center text-left">
+              <button type="button" class="btn btn__contact">Contact us now</button>
+          </div>
+      </div>
+  </div>
+</section>
+
+
+<!---------footer---------->
+<section id="footer">
+<div class="container footer__data">
+  <div class="row text-center">
+      <div class="col-sm">
+          <a href="#" class="footer__logo text-center">Rentrato</a>
+          <p class="footer__description text-center">Agency</p>
+          <div class="social__logo text-center">
+              <a href="#" class="footer__social"><i class='bx bxl-facebook'></i></a>
+              <a href="#" class="footer__social"><i class='bx bxl-instagram'></i></a>
+              <a href="#" class="footer__social"><i class='bx bxl-twitter'></i></a>
+          </div>
+      </div>
+
+      <div class="col-sm wrapper">
+          <h3 class="footer__title">Services</h3>
+          <ul class="footer__link__list">
+              <li><a href="#" class="footer__link">Buy</a></li>
+              <li><a href="#" class="footer__link">Rent</a></li>
+              <li><a href="#" class="footer__link">Sell</a></li>
+              <li><a href="#" class="footer__link">Reserve your spot</a></li>
+          </ul>
+      
+      </div>
+      <div class="col-sm">
+          <h3 class="footer__title">Information</h3>
+          <ul class="footer__link__list">
+              <li><a href="#" class="footer__link">Event</a></li>
+              <li><a href="#" class="footer__link">Contact us</a></li>
+              <li><a href="#" class="footer__link">Privacy policy</a></li>
+              <li><a href="#" class="footer__link">Terms of services</a></li>
+          </ul>
+      </div>
+
+      <div class="col-sm">
+          <h3 class="footer__title">Address</h3>
+          <ul class="footer__link__list">
+              <li>Lima - Peru</li>
+              <li>Jr Union #999</li>
+              <li>999 - 888 - 777</li>
+              <li>tastyfood@email.com</li>
+          </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <footer  id="footer_rights">
+      <div class="container ">
+          <div class="row">
+              <div class="col-md-6 footer__terms text-center">
+                  <a href="#" class="footer__terms-link">Terms & Agreements</a>
+                  <a href="#" class="footer__terms-link">Privacy Policy</a>
+              </div>
+              
+              <div class="col-md-6 footer__rights__details text-center">
+                  <p class="footer__copy">&#169; 2021 Abdullah Manafikhi . All rigths reserved.</p>
+              </div>
+
+      </div>
+  </footer>
+
+
+  
+    <!--========== SCROLL TOP ==========-->
+    <a href="#" class="scrolltop" id="scroll-top">
+      <i class='bx bx-chevron-up scrolltop__icon'></i>
+  </a>
+  
+ 
+   <!-- Swiper JS -->
+   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+   
+    <!--========== SCROLL REVEAL ==========-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--JS File-->
+   <script src="assets/index.js"></script>
+   
+     <!--Bootstrap JS-->
+     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> 
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+    
+   
+
+</body>
+</html>
